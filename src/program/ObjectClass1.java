@@ -6,7 +6,6 @@ public class ObjectClass1 {
     public String toString(){
         return "Suraj Kumar";
     }
-
     @Override
     public int hashCode() {
         return super.hashCode();

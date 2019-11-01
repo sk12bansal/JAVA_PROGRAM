@@ -25,5 +25,10 @@ public class StringSplit {
         System.out.println(str);
         System.out.println(partWord.contains(str));
         //return m.find();
+
+
+        final String url = "dssdds";
+         final String res = "sadsfdsfdsfds" + url.replaceAll("^/+", "");
+         System.out.println(res);
     }
 }
