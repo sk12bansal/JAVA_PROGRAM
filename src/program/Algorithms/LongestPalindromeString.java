@@ -36,8 +36,8 @@ public class LongestPalindromeString {
             }
         }
 
-        for(int i=palindromeBegin; i<=palindromeBegin+max_len-1; i++){
-            System.out.print(str.charAt(i));
-        }
+        System.out.print(str.substring(palindromeBegin,max_len+1));
+        //for(int i=palindromeBegin; i<=palindromeBegin+max_len-1; i++){
+       // }
     }
 }
